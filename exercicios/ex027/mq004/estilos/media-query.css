@@ -2,6 +2,90 @@
 
 /* Todas as demais mídias */
 
-@media all {
+/* Typical Device Breakpoints 
+-----------------------------
+Pequenas Telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px 
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media print { /*Impressão*/
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../imagens/back-print.jpg); /* desnecessário */
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+
+    #pt {
+        display: block;
+    }
+
+    #ph {
+        display: none;
+    }
     
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*Tablet*/
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #tb {
+        display: block;
+    }
+
+    #ph {
+        display: none;
+    } 
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /*Desktop*/
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    #dt {
+        display: block;
+    }
+
+    #ph {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px)  { /*Grandes telas*/
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main {
+        width: 700px;
+    }
+
+    #tv {
+        display: block;
+    }
+
+    #ph {
+        display: none;
+    }
 }

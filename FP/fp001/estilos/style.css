@@ -1,1 +1,80 @@
 @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #F76C36;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding: 10px;
+}
+
+picture {
+    display: block;
+    background-image: url(../imagens/bolo.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #F76C36;
+    margin: 100px 0px 30px 350px;
+}
+
+.sc {
+    margin: auto;
+    width: 700px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.sc:hover {
+    cursor: pointer;
+    box-shadow: 2px 1px 20px  rgba(0, 0, 0, 0.312);
+}
+
+h3 {
+    padding: 30px 0px 20px 70px;
+    font-size: 24px;
+    color: #F76C36;
+}
+
+#s1 ul {
+    list-style-position: inside;
+    font-weight: bold;
+    color: black;
+    padding: 0px 0px 15px 85px;
+    line-height: 30px;
+}
+
+#s1 button {
+    background-color: #F76C36;
+    color: white;
+    padding: 10px;
+    margin-left: 66px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#s2 ol {
+    list-style-position: inside;
+    font-weight: 600;
+    color: black;
+    width: 650px;
+    padding: 0px 0px 15px 85px;
+    font-size: 14px;
+    line-height: 25px;
+}

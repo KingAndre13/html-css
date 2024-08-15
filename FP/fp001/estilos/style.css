@@ -29,7 +29,7 @@ picture {
 h2 {
     font-size: 32px;
     color: #F76C36;
-    margin: 100px 0px 30px 350px;
+    margin: 100px 0px 40px 350px;
 }
 
 .sc {
@@ -37,7 +37,7 @@ h2 {
     width: 700px;
     border-radius: 10px;
     padding-bottom: 20px;
-    
+    margin-bottom: 40px;
 }
 
 .sc:hover {
@@ -76,5 +76,28 @@ h3 {
     width: 650px;
     padding: 0px 0px 15px 85px;
     font-size: 14px;
+    line-height: 25px;
+}
+
+#s3 p {
+    text-align: justify;
+    font-weight: 550;
+    width: 585px;
+    color: black;
+    padding: 0px 0px 15px 70px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #F76C36;
+    height: 100px;
+    text-align: center;
+}
+
+footer p {
+    margin: auto;
+    width: 500px;
+    color: white;
+    padding: 20px;
     line-height: 25px;
 }

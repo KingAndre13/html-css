@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: goldenrod;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: orangered;
+}
+
+p {
+    text-align: center;
+    color: green;
+}

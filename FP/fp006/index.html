@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="post" autocomplete="off">
+        <fieldset>
+            <legend>Dados Gerais</legend>
+            <label for="nome">Nome:<input type="text" id="nome" required name="nome" minlength="3"></label>
+            <label for="data_nascimento">Data de Nascimento:<input type="text" name="data_nascimento" id="data_nascimento"></label>
+            <label for="cpf">CPF:<input type="number" name="cpf" pattern="^[0-6]{11}$" id="cpf" minlength="11"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="tipoMorada">Tipo:<select name="tipoMorada" id="tipoMorada">
+                <option value="0">Selecione</option>
+                <option value="1">Casa</option>
+                <option value="2">Apartamento</option>
+                <option value="3">Condomínio</option>
+            </select></label>
+            <label for="loug">Lougradoro:<input type="text" name="loug" id="loug"></label>
+            <label for="numemoCasa">Número<input type="number" name="numemoCasa" id="numemoCasa"></label>
+            <label for="complemento">Complemento:<input type="text" name="complemento" id="complemento"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Fale Conosco</legend>
+            <label for="mensagem">Mensagem:<textarea id="mensagem"></textarea></label>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Enviar sua mensagem">
+            <input type="reset" value="Limpar o Formulário">
+        </fieldset>
+    </form>
+</body>
+</html>

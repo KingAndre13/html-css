@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="phy.php" method="post">
+        <fieldset>
+            <legend>Seus Dados</legend>
+        <p><label for="nome">Nome: <input type="text" name="nome" id="nome" placeholder="Digite aqui!" required></label></p>
+        <p><label for="email">E-mail: <input type="email" name="email" id="email" placeholder="Digite aqui!" required></label></p>
+        <p><label for="telefone">Telefone: <input type="tel" name="telefone" id="telefone" placeholder="Digite aqui!" required></label></p>
+        <p><label for="dataNasc">Data de Nascimento: <input type="date" name="dataNasc" id="dataNasc" required></label></p>
+        <p><label for="sac">Fale conosco: <textarea name="sac" id="sac" placeholder="Digite aqui!"cols="30" rows="4" required></textarea></label></p>
+        <input type="submit" value="Enviar Formulário">
+        </fieldset>
+    </form>
+</body>

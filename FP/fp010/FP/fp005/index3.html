@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        #cr, #pl, #pl2 {
+            width: 50%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        #cr, #cr th, #cr td, #pl, #pl th, #pl td, #pl2, #pl2 th, #pl2 td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Smith</td>
+            <td>HTML</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>JavaScript</td>
+            <td>10</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <thead>
+                <h2>Tabela com Título</h2>
+        </thead>
+        <tr>
+            <td>Smith</td>
+            <td>HTML</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>JavaScript</td>
+            <td>10</td>
+        </tr>
+    </table>
+    <hr>
+    <table id="cr">
+        <thead>
+            <h2>Tabela com Cabeçalho e Rodapé</h2>
+            <tr>
+                <th>Mês</th>
+                <th>Horas/Aulas</th>
+            </tr>
+        </thead>
+       <tbody>
+            <tr>
+                <td>Junho</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Julho</td>
+                <td>50</td>
+            </tr>
+       </tbody>
+       <tfoot>
+        <tr>
+            <th>Total</th>
+            <td>100</td>
+        </tr>
+       </tfoot>
+    </table>
+    <hr>
+    <table id="pl">
+        <thead>
+            <h2>Tabela Simples</h2>
+            <tr>
+                <th>Aluno</th>
+                <th colspan="2">Disciplina</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alex</td>
+                <td>HTML</td>
+                <td>Ambiente WEB</td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="pl2">
+            <h2>Tabela Simples</h2>
+            <tr>
+                <th>Aluno</th>
+                <th rowspan="2">Disciplina</th>
+            </tr>
+            <tr>
+                <td>Alex</td>
+                <td>HTML</td>
+                <td>Ambiente WEB</td>
+            </tr>
+    </table>
+</body>
+</html>

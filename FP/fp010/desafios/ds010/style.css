@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lovers+Quarrel&display=swap');
+
+@font-face {
+    font-family: andro;
+    src: url('./pacote-projeto-d010/fontes/idroid.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(186, 186, 136);
+}
+
+header {
+    background-image: linear-gradient(rgb(33, 192, 33), darkgreen);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#tiprin{
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+nav {
+    background-color: darkgreen;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.nav2 {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.nav2:hover{
+    color: yellow;
+    background-color: #032503;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.andro{
+    font-family: andro;
+    text-indent: 10px;
+    color: #085008;
+}
+
+.sec2 > h2 {
+    font-family: andro;
+    text-indent: 10px;
+    color: #085008;
+    background-image: linear-gradient( to right, #80ce80, #ffffff);
+}
+
+
+
+.p1 {
+    text-indent: 30px;
+    text-align: justify;
+    color: rgb(79, 75, 75);
+    margin: 15px 10px 5px 10px;
+}
+
+
+.linktext {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #80ce80;
+    color: #085008;
+}
+
+
+@media(max-width: 999px) {
+    #img1 > img {
+        width: 600px;
+    }
+}
+
+@media(max-width: 750px) {
+
+    #img1 > img {
+        width: 480px
+    }
+}
+
+@media(max-width: 599px) {
+
+    #img1 > img {
+        margin: 7.5%;
+        width: 300px;
+    }
+}
+
+#img2 {
+    margin: auto;
+}

@@ -1,0 +1,12 @@
+div.conteiner {
+    display: flex;
+    background-color: lightsalmon;
+    flex-direction: row-reverse;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}

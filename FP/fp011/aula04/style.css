@@ -1,0 +1,14 @@
+div.conteiner {
+    display: flex;
+    background-color: lightsalmon;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    /*align-items: stretch;*/
+    height: 100px;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
